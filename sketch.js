@@ -24,14 +24,15 @@ function setup() {
 	paper=new Paper(350,660,120,20);
 
 	ground=new Ground(600,height,1200,20);
+	groundSprite.shapeColor=color(255)
 
-	dustbin=new Dustbin(355,660,400,24);
+	dustbin=createSprite(355,660,400,24);
 dustbin.shapeColor="red";
 
-dustbin2=new Dustbin(560,520,20,300);
+dustbin2=createSprite(560,520,20,300);
 dustbin2.shapeColor="red";
 
-dustbin3=new Dustbin(160,520,20,300);
+dustbin3=createSprite(160,520,20,300);
 dustbin3.shapeColor="red";
 
 
