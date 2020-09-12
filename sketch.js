@@ -21,15 +21,15 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here
-	paper=new Paper(350,660,120,20);
+	paper=new Paper(200,450,40);
 
-	ground=new Ground(600,height,1200,20);
+	ground=new Ground(width/2 ,670 ,width ,20)
 	groundSprite.shapeColor=color(255)
 
-	dustbin=createSprite(355,660,400,24);
+	dustbin=createSprite(1000 ,640 ,50 ,100);
 dustbin.shapeColor="red";
 
-dustbin2=createSprite(560,520,20,300);
+dustbin2=createSprite(1200 ,640 ,50 ,100);
 dustbin2.shapeColor="red";
 
 dustbin3=createSprite(160,520,20,300);
